@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>720</width>
+        <height>1280</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="background" sid="350594831252952">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195354419795946" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\download (7) (1).jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="download__4_removebgpreview" sid="307645929233241">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="darah" sid="907595729990553" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="847072836558907">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267139684266454" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\download__4_-removebg-preview.png">
+                        <image-point name="Imagepoint 1" x="0.504464" y="0.316964" />
+                        <collision-poly>
+                            <point x="0.316964" y="0.316964" />
+                            <point x="0.5" y="0.1875" />
+                            <point x="0.683036" y="0.316964" />
+                            <point x="0.933036" y="0.933036" />
+                            <point x="0.5" y="0.776786" />
+                            <point x="0.0669643" y="0.933036" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="842771934667872">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="164904929987556">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="973246544179700" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="618994345588973">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="406650790743866">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="852048392148231" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Untitled1removebgpreview" sid="880035003114860">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="782233299769638" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\Untitled1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.771739" y="0.5" />
+                            <point x="0.5" y="0.535398" />
+                            <point x="0.315217" y="0.5" />
+                            <point x="0.5" y="0.387906" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Untitled1removebgpreview2" sid="519809615270884">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="237128770790595">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="323453773226613" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="C:\Users\PSPT-01\Downloads\Untitled-removebg-preview (1).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="955626154584013">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type global="1" name="Array" sid="397237944557750">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="batu1removebgpreview" sid="560647600230183">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="jumlah target" name="damage" sid="898398396842402" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="639411120305765">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="932140451666680">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612857755307071" speed="5">
+                    <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\batu1-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.30131" y="0.313636" />
+                            <point x="0.497817" y="0.0863636" />
+                            <point x="0.694323" y="0.318182" />
+                            <point x="0.777293" y="0.5" />
+                            <point x="0.777293" y="0.768182" />
+                            <point x="0.497817" y="0.963636" />
+                            <point x="0.222707" y="0.768182" />
+                            <point x="0.244541" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Array2" sid="255705594887999">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Particles9" sid="536856336328334">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\PSPT-01\Downloads\ping-removebg-preview.png" />
+        </object-type>
+        <object-type name="Sprite3" sid="891217244138256">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="885609396802166" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="205128069030052">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="861158728172736" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="268609391745657">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite5" sid="331809656750349">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="753556394374773" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="C:\Users\PSPT-01\Downloads\download_win-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.217778" y="0.217778" />
+                            <point x="0.497778" y="0.0622222" />
+                            <point x="0.702222" y="0.297778" />
+                            <point x="0.782222" y="0.497778" />
+                            <point x="0.786667" y="0.786667" />
+                            <point x="0.497778" y="0.951111" />
+                            <point x="0.191111" y="0.808889" />
+                            <point x="0.231111" y="0.497778" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="872381391703638">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732791055157483" speed="5">
+                    <frame duration="1" hotspotX="0.502" hotspotY="0.501502" original-source="C:\Users\PSPT-01\Downloads\gameover1.png">
+                        <collision-poly>
+                            <point x="0.22541" y="0.2657" />
+                            <point x="0.5" y="0.140097" />
+                            <point x="0.709016" y="0.342995" />
+                            <point x="0.922131" y="0.497585" />
+                            <point x="0.836066" y="0.806763" />
+                            <point x="0.5" y="0.864734" />
+                            <point x="0.217213" y="0.743961" />
+                            <point x="0.045082" y="0.497585" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="562849472143139">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button" sid="739645297407398">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite7" sid="930998191412660">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="jumlah target" name="damage2" sid="510856687235726" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="791412261016037">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="819723280592234">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181832026304291" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\batu5-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.337778" y="0.339286" />
+                            <point x="0.497778" y="0.125" />
+                            <point x="0.675556" y="0.325893" />
+                            <point x="0.777778" y="0.5" />
+                            <point x="0.768889" y="0.767857" />
+                            <point x="0.497778" y="0.950893" />
+                            <point x="0.226667" y="0.772321" />
+                            <point x="0.248889" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="448833052775009">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="931264952144473" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="711809462379154">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\PSPT-01\Downloads\gguhg-removebg-preview.png" />
+        </object-type>
+        <object-type name="Sprite9" sid="773547906435947">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="jumlah target" name="demage3" sid="128884508069596" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="301351243769485">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="853011534460330">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693732612679281" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.5" original-source="C:\Users\PSPT-01\Downloads\batu2-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.177778" y="0.178571" />
+                            <point x="0.497778" y="0.0580357" />
+                            <point x="0.831111" y="0.169643" />
+                            <point x="0.955556" y="0.5" />
+                            <point x="0.822222" y="0.821429" />
+                            <point x="0.497778" y="0.950893" />
+                            <point x="0.177778" y="0.821429" />
+                            <point x="0.0577778" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="412730849232277">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="586010425018080" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles2" sid="496422929302848">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\PSPT-01\Downloads\sbdsj-removebg-preview.png" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>level 1.xml</layout>
+        <layout>level 2.xml</layout>
+        <layout>level 3.xml</layout>
+        <layout>level 4.xml</layout>
+        <layout>level 5.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+        <event-sheet>Event sheet 5.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="4" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable comment="jumlah target" constant="0" name="enemy" sid="420721101957360" static="0" type="number">0</variable>
+        <event-block sid="601025364947717">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="732966610413115" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="483917039943002" type="Sprite2">
+                    <param id="0" name="Pin to">download__4_removebgpreview</param>
+                    <param id="1" name="Mode">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="531799830812992" type="Sprite5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="830644033940022" type="Sprite6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="347456712422330" type="Button">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="294276123310230">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="655905841174293">
+            <conditions>
+                <condition id="2" name="Key is down" sid="505533170195559" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+                <condition id="-6" name="Every X seconds" sid="190401234640498" type="System">
+                    <param id="0" name="Interval (seconds)">0.1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="623988178467143" type="download__4_removebgpreview">
+                    <param id="0" name="Object">Untitled1removebgpreview2</param>
+                    <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                    <param id="2" name="Image point">1</param>
+                </action>
+                <action id="-8" name="Set angle" sid="594333859406299" type="Untitled1removebgpreview2">
+                    <param id="0" name="Angle">-90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="844902299998085">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="313649340029967" type="Untitled1removebgpreview2" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="444963834541940" type="Untitled1removebgpreview2" />
+            </actions>
+        </event-block>
+        <event-block sid="276143853189271">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="915815279814675" type="Untitled1removebgpreview2">
+                    <param id="0" name="Object">batu1removebgpreview</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="466123271601783" type="Untitled1removebgpreview2" />
+                <action id="-12" name="Subtract from" sid="152686371834083" type="batu1removebgpreview">
+                    <param id="0" name="Instance variable">damage</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="863918270104220" type="batu1removebgpreview">
+                    <param id="0" name="Object">Particles9</param>
+                    <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="680965943462279">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="335883466976363" type="batu1removebgpreview">
+                    <param id="0" name="Instance variable">damage</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="391586821490515" type="batu1removebgpreview" />
+                <action id="-10" name="Add to" sid="849763372108371" type="System">
+                    <param id="0" name="Variable">enemy</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Set text" sid="541363906730233" type="Text">
+                    <param id="0" name="Text">Enemy &amp; &quot;of 10&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="778197247866228">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="913518612114077" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+                <condition id="-16" name="Pick random instance" sid="207398623104530" type="System">
+                    <param id="0" name="Object">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="113748808512409" type="Sprite3">
+                    <param id="0" name="Object">batu1removebgpreview</param>
+                    <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="766820431702191" type="batu1removebgpreview">
+                    <param id="0" name="Frame number">int(random(0,4))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="436638171214244">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="293042327084851" type="System" />
+            </conditions>
+            <actions>
+                <action id="-5" name="Set width" sid="794073839600700" type="Sprite4">
+                    <param id="0" name="Width">download__4_removebgpreview.darah</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="622315718054543">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="686117059146143" type="download__4_removebgpreview">
+                    <param id="0" name="Object">batu1removebgpreview</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="235677684006043" type="download__4_removebgpreview">
+                    <param id="0" name="Instance variable">darah</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="390009839159588" type="batu1removebgpreview">
+                    <param id="0" name="Object">Particles9</param>
+                    <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="253608122299533" type="batu1removebgpreview" />
+            </actions>
+        </event-block>
+        <event-block sid="495857209801462">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="294817750349082" type="download__4_removebgpreview">
+                    <param id="0" name="Instance variable">darah</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="923730017457578" type="download__4_removebgpreview" />
+                <action id="-9" name="Destroy" sid="144694909788835" type="Sprite4" />
+                <action id="-9" name="Destroy" sid="147913610489412" type="Untitled1removebgpreview2" />
+                <action id="-15" name="Set visible" sid="995920602077136" type="Sprite6">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="667946527390069" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="755238135997284" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="963777134437731">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="736515214437897" type="System">
+                    <param id="0" name="Variable">enemy</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="342521371011510" type="Sprite5">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="2" name="Set visible" sid="735677003630835" type="Button">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-7" name="Set size" sid="549871711149639" type="Button">
+                    <param id="0" name="Width">259</param>
+                    <param id="1" name="Height">35</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="553238982297011">
+            <conditions>
+                <condition id="0" name="On clicked" sid="409908133470245" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="246052017670583" type="System">
+                    <param id="0" name="Layout">level 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="408886320534369">
+            <conditions />
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
